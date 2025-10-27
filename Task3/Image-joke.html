@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Advanced Styling & JavaScript</title>
+  <link rel="stylesheet" href="Image-joke.css" />
+</head>
+<body>
+  <header>
+    <h1>Advanced Styling & JavaScript</h1>
+    <button id="themeToggle" class="theme-btn">🌙</button>
+  </header>
+
+  <main>
+    <!-- Image Carousel -->
+    <section class="carousel-section">
+      <div class="carousel">
+        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1600&q=80" class="active" alt="Slide 1" />
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1600&q=80" alt="Slide 2" />
+        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80" alt="Slide 3" />
+        <div class="controls">
+          <button id="prev">⟨</button>
+          <button id="next">⟩</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- API Data Fetch -->
+    <section class="api-section">
+      <h2>Fetch Live Data (Programming Jokes)</h2>
+      <button id="fetchJoke">Get Joke</button>
+      <p id="jokeDisplay" class="joke"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with 💻 by <span>Student Project</span></p>
+  </footer>
+
+  <script src="Image-joke.js"></script>
+</body>
+</html>
+
