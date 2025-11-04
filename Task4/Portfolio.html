@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rashi's Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css" />
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">Rashi<span> Portfolio</span></h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Hello, I'm <span>Rashi Srivastava</span></h2>
+      <p>A passionate BCA student and aspiring Software Developer.</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      I’m a dedicated Computer Applications student with a strong foundation in
+      web technologies like HTML, CSS, JavaScript, and programming languages such
+      as Java and Python. I love turning ideas into interactive digital experiences.
+    </p>
+    <div class="skills">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>Python</span>
+      <span>Java</span>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>My Projects</h2>
+    <div class="project-grid">
+
+      <div class="project-card">
+        <img src="Medilocator Logo Design.png" alt="MediLocator Project" />
+        <h3>MediLocator</h3>
+        <p>A smart web app that helps users locate nearby hospitals and pharmacies efficiently.</p>
+      </div>
+
+      <div class="project-card">
+        <img src="https://tse3.mm.bing.net/th/id/OIP.F1OOYZty8iKEXMIxwYZz3AAAAA?pid=Api&P=0&h=180" alt="MindEase App" />
+        <h3>MindEase</h3>
+        <p>A mental wellness platform that offers calming exercises and motivational content for users.</p>
+      </div>
+
+      <div class="project-card">
+        <img src="https://tse1.mm.bing.net/th/id/OIP.14TQCfLV4HPEeotqb_68tQHaEK?pid=Api&P=0&h=180" alt="Weather Forecasting Website" />
+        <h3>Weather Forecasting Website</h3>
+        <p>A real-time weather website showing temperature, humidity, and conditions using live API data.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <p id="responseMsg"></p>
+  </section>
+
+
+  <footer>
+    <p>© 2025 Rashi Srivastava | All Rights Reserved</p>
+  </footer>
+
+  <script src="portfolio.js"></script>
+</body>
+</html>
