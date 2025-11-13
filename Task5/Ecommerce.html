@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShopVerse | Your Smart Shopping Hub</title>
+  <link rel="stylesheet" href="Ecommerce.css" />
+</head>
+<body>
+  
+  <header>
+    <div class="logo">🛍️ ShopVerse</div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#" id="cartBtn">Cart (<span id="cartCount">0</span>)</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to ShopVerse</h1>
+    <p>Your one-stop destination for smart shopping with style and savings!</p>
+    <button class="shop-btn">Shop Now</button>
+  </section>
+
+  <section class="filters">
+    <input type="text" id="searchInput" placeholder="🔍 Search products...">
+    <select id="categoryFilter">
+      <option value="all">All Categories</option>
+      <option value="electronics">Electronics</option>
+      <option value="fashion">Fashion</option>
+      <option value="accessories">Accessories</option>
+    </select>
+    <select id="priceSort">
+      <option value="default">Sort by Price</option>
+      <option value="low">Low to High</option>
+      <option value="high">High to Low</option>
+    </select>
+  </section>
+
+  <section class="products">
+    <h2>Featured Products</h2>
+    <div class="product-container" id="productList"></div>
+  </section>
+
+  <section class="cart-section" id="cartSection">
+    <h2>Your Cart 🛒</h2>
+    <div id="cartItems"></div>
+    <p id="totalPrice" class="total-price">Total: ₹0</p>
+    <button id="clearCartBtn" class="clear-btn">Clear Cart</button>
+  </section>
+
+  <footer>
+    <p>© 2025 ShopVerse | Designed with ❤️ by Rashi Srivastava</p>
+  </footer>
+
+  <script src="Ecommerce.js"></script>
+</body>
+</html>
+
